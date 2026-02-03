@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayesha Saeed — Portfolio</title>
+  <meta name="description" content="Ayesha Saeed — Applied Biostatistics (R, Python, SAS). Projects, experience, and contact." />
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <!-- Mobile header -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Ayesha</span>
+      </a>
+
+      <nav class="topnav" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <button class="iconbtn" type="button" id="themeToggle" aria-label="Toggle theme">
+          <span class="icon" aria-hidden="true">☾</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout" id="top">
+    <!-- Desktop sidebar -->
+    <aside class="sidebar" aria-label="Sidebar">
+      <div class="sidebar-card">
+        <div class="avatar" aria-hidden="true">AS</div>
+
+        <h1 class="name">Ayesha Saeed</h1>
+        <p class="role">M.S. Applied Biostatistics (BU) • R / Python / SAS</p>
+
+        <p class="summary">
+          I work with public health and biomedical data—cleaning, modeling, and communicating results in a
+          reproducible workflow. Familiar with clinical trial concepts and eager to grow in industry-ready deliverables.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="resume.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+
+        <div class="links">
+          <a href="mailto:asaeed8@bu.edu">asaeed8@bu.edu</a>
+          <a href="https://github.com/ayeshasaeed97" target="_blank" rel="noreferrer">github.com/ayeshasaeed97</a>
+          <!-- Add your LinkedIn URL below (optional) -->
+          <a href="#" class="disabled" aria-disabled="true" title="Add your LinkedIn URL in index.html">LinkedIn (add link)</a>
+        </div>
+
+        <hr class="rule" />
+
+        <nav class="sidenav" aria-label="Section navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <p class="meta">Boston, MA • (404) 421-0707</p>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content" id="content">
+      <section id="about" class="section hero">
+        <div class="kicker">Portfolio</div>
+        <h2>Applied biostatistics + practical analytics.</h2>
+        <p class="lead">
+          I enjoy turning messy datasets into clear, decision-ready outputs—whether that’s model results,
+          tables/figures, or lightweight dashboards.
+        </p>
+
+        <div class="highlights">
+          <div class="card">
+            <h3>What I do</h3>
+            <p>Data cleaning, exploratory analysis, modeling, and reporting for public health / biomedical projects.</p>
+          </div>
+          <div class="card">
+            <h3>How I work</h3>
+            <p>Reproducible workflows, clear documentation, and “tell the story with the data” communication.</p>
+          </div>
+          <div class="card">
+            <h3>Currently</h3>
+            <p>M.S. Applied Biostatistics at Boston University (GPA 3.87), graduating Aug 2026.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <header class="section-head">
+          <h2>Experience</h2>
+          <p class="muted">Recent roles and impact.</p>
+        </header>
+
+        <div class="timeline">
+          <article class="titem">
+            <div class="tmeta">
+              <div class="trole">Operations & Special Projects Intern</div>
+              <div class="torg">Office of the DeKalb County District Attorney</div>
+              <div class="tdates">May 2025 – Jul 2025</div>
+            </div>
+            <ul>
+              <li>Produced ad hoc operational and performance metrics using SQL and Excel to monitor case processing trends.</li>
+              <li>Assessed policy efficacy using Judicial Information System data; ran integrity checks and summarized reproducible findings for leadership.</li>
+            </ul>
+          </article>
+
+          <article class="titem">
+            <div class="tmeta">
+              <div class="trole">Research Administrative Coordinator</div>
+              <div class="torg">Rollins School of Public Health</div>
+              <div class="tdates">Jul 2024 – Jul 2025</div>
+            </div>
+            <ul>
+              <li>Coordinated research operations across multiple public health projects, supporting on-time execution and compliance.</li>
+              <li>Maintained project tracking systems (milestones, documentation, communication) to improve workflow visibility.</li>
+              <li>Aggregated project updates into investigator reports used to guide program decisions.</li>
+            </ul>
+          </article>
+
+          <article class="titem">
+            <div class="tmeta">
+              <div class="trole">Research Assistant</div>
+              <div class="torg">Ekenga Lab, Rollins School of Public Health</div>
+              <div class="tdates">Jan 2024 – May 2024</div>
+            </div>
+            <ul>
+              <li>Prepared and analyzed environmental health datasets using Excel, R, and Python for faculty-led studies.</li>
+              <li>Created concise summary reports to support interpretation for statistical and non-statistical audiences.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <header class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Selected class projects (from coursework).</p>
+        </header>
+
+        <div class="grid">
+          <article class="proj card">
+            <h3>Stroke Prediction (BRFSS)</h3>
+            <p class="muted">
+              Built and compared XGBoost, Random Forest, and logistic regression models to predict stroke occurrence.
+              Addressed missingness/cleaning and evaluated performance to identify key risk factors.
+            </p>
+            <div class="pillrow" aria-label="Technologies">
+              <span class="pill">R</span>
+              <span class="pill">XGBoost</span>
+              <span class="pill">Random Forest</span>
+              <span class="pill">Logistic regression</span>
+            </div>
+            <div class="actions">
+              <!-- Replace with real links if you have them -->
+              <a class="btn small ghost" href="https://github.com/ayeshasaeed97" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="proj card">
+            <h3>Survival Analysis (Chronic Inflammation)</h3>
+            <p class="muted">
+              Assessed predictors of survival using Kaplan–Meier, log-rank tests, and Cox regression.
+              Reported adjusted hazard ratios with supporting tables/figures in a reproducible workflow.
+            </p>
+            <div class="pillrow" aria-label="Technologies">
+              <span class="pill">R</span>
+              <span class="pill">survival</span>
+              <span class="pill">Kaplan–Meier</span>
+              <span class="pill">Cox PH</span>
+            </div>
+            <div class="actions">
+              <!-- Replace with real links if you have them -->
+              <a class="btn small ghost" href="https://github.com/ayeshasaeed97" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="proj card">
+            <h3>Reusable Reporting Templates</h3>
+            <p class="muted">
+              A practical pattern I use: clean data → validate → analyze → generate tables/figures → export deliverables (PDF/Word/HTML).
+              Great for coursework and research teams.
+            </p>
+            <div class="pillrow" aria-label="Technologies">
+              <span class="pill">R Markdown</span>
+              <span class="pill">Python</span>
+              <span class="pill">SAS ODS</span>
+              <span class="pill">Git</span>
+            </div>
+            <div class="actions">
+              <a class="btn small ghost" href="resume.pdf" target="_blank" rel="noreferrer">See résumé</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="note muted">
+          Want these to look stronger fast? Add links + 2 bullets each (dataset, what you built, and one metric or outcome).
+        </p>
+      </section>
+
+      <section id="skills" class="section">
+        <header class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">Tools I’m comfortable with.</p>
+        </header>
+
+        <div class="skillgrid">
+          <div class="card">
+            <h3>Statistical programming</h3>
+            <div class="pillrow">
+              <span class="pill">R (dplyr, ggplot2)</span>
+              <span class="pill">survival</span>
+              <span class="pill">glmnet</span>
+              <span class="pill">pROC</span>
+              <span class="pill">table1</span>
+              <span class="pill">shiny</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Python</h3>
+            <div class="pillrow">
+              <span class="pill">pandas</span>
+              <span class="pill">NumPy</span>
+              <span class="pill">scikit-learn</span>
+              <span class="pill">matplotlib</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>SAS</h3>
+            <div class="pillrow">
+              <span class="pill">DATA step</span>
+              <span class="pill">PROC SQL</span>
+              <span class="pill">PROC SORT/FREQ/MEANS</span>
+              <span class="pill">PROC TRANSPOSE</span>
+              <span class="pill">ODS</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Other</h3>
+            <div class="pillrow">
+              <span class="pill">SQL</span>
+              <span class="pill">Git</span>
+              <span class="pill">PLINK</span>
+              <span class="pill">Markdown</span>
+              <span class="pill">Excel</span>
+              <span class="pill">Jupyter</span>
+              <span class="pill">RStudio</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <header class="section-head">
+          <h2>Education</h2>
+          <p class="muted">Academic background.</p>
+        </header>
+
+        <div class="grid two">
+          <article class="card">
+            <h3>Boston University School of Public Health</h3>
+            <p class="muted">M.S., Applied Biostatistics • GPA: 3.87</p>
+            <p class="muted">Anticipated Aug 2026</p>
+          </article>
+
+          <article class="card">
+            <h3>Emory University</h3>
+            <p class="muted">B.S., Data and Decision Sciences</p>
+            <p class="muted">May 2024</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <header class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Email is best.</p>
+        </header>
+
+        <div class="card contact">
+          <p><strong>Email:</strong> <a href="mailto:asaeed8@bu.edu">asaeed8@bu.edu</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/ayeshasaeed97" target="_blank" rel="noreferrer">ayeshasaeed97</a></p>
+          <p><strong>Location:</strong> Boston, MA</p>
+          <div class="cta-row">
+            <a class="btn" href="resume.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
+            <button class="btn ghost" type="button" id="copyEmail">Copy email</button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="muted">© <span id="year"></span> Ayesha Saeed</p>
+        <a class="muted" href="#top">Back to top ↑</a>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
